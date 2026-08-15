@@ -1,0 +1,24 @@
+# 版本控制与工具目录
+.git
+.gitignore
+.loom
+.comet
+.pytest_cache
+
+# 运行时数据（通过卷挂载提供）
+music/
+data/
+tmp/
+
+# 测试与文档（镜像不需要）
+test/
+docs/
+verify/
+*.md
+*.txt
+
+# 脚本与杂项
+music-player.sh
+project-root
+Dockerfile
+.dockerignore

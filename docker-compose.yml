@@ -1,0 +1,14 @@
+services:
+  web-music-player:
+    image: web-music-player:1.0.0
+    build: .                      # 本地无镜像时可自动从 Dockerfile 构建
+    container_name: music-player
+    ports:
+      - "8787:8787"
+    environment:
+      - PORT=8787
+      - HOST=0.0.0.0
+    volumes:
+      - ./music:/app/music        # 音乐文件（含 .lrc 歌词）
+      - ./data:/app/data          # 歌单数据 playlists.json
+    restart: unless-stopped

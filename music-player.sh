@@ -42,7 +42,7 @@ find_orphan_pid() {
   local d pid cmdline cwd
   for d in /proc/[0-9]*; do
     pid="${d#/proc/}"
-    cmdline="$(tr '\0' ' ' < "$d/cmdline" 2>/dev/null)" || continue
+    cmdline="$({ tr '\0' ' ' < "$d/cmdline"; } 2>/dev/null)" || continue
     case "$cmdline" in
       *node*server.js*) ;;
       *) continue ;;

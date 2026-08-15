@@ -9,3 +9,5 @@ node_modules/
 /data/
 *.log
 /.loom/
+/tmp/
+*.tar
