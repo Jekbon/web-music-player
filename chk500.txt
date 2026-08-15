@@ -1,0 +1,26 @@
+/ -> 200
+/style.css?v=2 -> 200
+/app.js?v=2 -> 200
+/api/library -> 200
+/api/playlists -> 200
+---曲库---
+{"tracks":[{"id":"11a628f690268f62","title":"被遗忘的时光","artist":"试音碟","album":"remember the sound","folder":".","path":"蔡琴-被遗忘的时光.mp3","size":6603844,"duration":null},{"id":"a8970b1cde26960f","title":"沧海一声笑","artist":"许冠杰","album":"沧海一声笑","fo
+---music目录---
+total 196800
+drwxr-xr-x  2 root root     4096 Aug 15 16:02 .
+drwxr-xr-x 14 root root     4096 Aug 15 16:03 ..
+-rw-r--r--  1 root root 12216105 Aug 15 16:01 Beyond - 光辉岁月（国语版）.mp3
+-rw-r--r--  1 root root 12995395 Aug 15 16:01 BEYOND - 海阔天空.mp3
+-rw-r--r--  1 root root 10951745 Aug 15 16:01 卢冠廷&莫文蔚 - 一生所爱.mp3
+-rw-r--r--  1 root root 10531812 Aug 15 16:01 孟庭苇 - 风中有朵雨做的云.mp3
+-rw-r--r--  1 root root  9167933 Aug 15 16:01 朴树 - 白桦林.mp3
+-rw-r--r--  1 root root 51434178 Aug 15 16:01 李克勤-红日(粤语).wav
+-rw-r--r--  1 root root 11524341 Aug 15 16:01 林子祥 - 真的汉子.mp3
+-rw-r--r--  1 root root  8371959 Aug 15 16:01 林子祥 - 长路漫漫伴你闯 (国语).mp3
+-rw-r--r--  1 root root 12010283 Aug 15 16:02 纸短情长 - 纸短情长.mp3
+-rw-r--r--  1 root root 18125062 Aug 15 16:01 腾格尔 - 天堂.mp3
+-rw-r--r--  1 root root 10030102 Aug 15 16:01 蔡琴-你的眼神.mp3
+-rw-r--r--  1 root root  6603844 Aug 15 16:01 蔡琴-被遗忘的时光.mp3
+-rw-r--r--  1 root root  7154660 Aug 15 16:01 许冠杰 - 沧海一声笑.mp3
+-rw-r--r--  1 root root  9719928 Aug 15 16:01 钟镇涛 - 让一切随风.mp3
+-rw-r--r--  1 root root 10639376 Aug 15 16:01 青鸟飞鱼 - 此生不换.mp3

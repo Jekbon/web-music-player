@@ -1,0 +1,66 @@
+{
+  "step0": {
+    "app_js_src": "http://127.0.0.1:8787/app.js?v=2",
+    "app_js_src_has_v2": true,
+    "fetch_app_js_v2": {
+      "ok": true,
+      "status": 200,
+      "has": true
+    }
+  },
+  "step1": {
+    "track_count_N": 2,
+    "titles": [
+      "删除测试",
+      "王菲-如愿"
+    ],
+    "api_last_track": {
+      "id": "5943197ef28f1def",
+      "title": "王菲-如愿",
+      "artist": "",
+      "album": "",
+      "folder": ".",
+      "path": "王菲-如愿.mp3",
+      "size": 10620546,
+      "duration": null
+    }
+  },
+  "step2": {
+    "dialog_handler": "page.on('dialog') -> accept (已注册)"
+  },
+  "step4": {
+    "menu_visible": true,
+    "menu_text": "暂无歌单，请先新建\n🗑 删除歌曲",
+    "danger_item_count": 1,
+    "danger_item_text": "🗑 删除歌曲"
+  },
+  "step5": {
+    "clicked": "删除歌曲 (.menu-item-danger)",
+    "dialogs_seen": [
+      {
+        "type": "confirm",
+        "message": "删除歌曲「王菲-如愿」？文件将从磁盘上永久删除，无法恢复。"
+      }
+    ]
+  },
+  "step6": {
+    "track_count_after": 1,
+    "titles_after": [
+      "删除测试"
+    ],
+    "deleted_target": {
+      "id": "5943197ef28f1def",
+      "title": "王菲-如愿"
+    },
+    "target_id_in_api": false,
+    "target_title_in_api": false
+  },
+  "step7": {
+    "console_errors": []
+  },
+  "final": {
+    "result": "PASS",
+    "deleted_track_title": "王菲-如愿",
+    "deleted_track_id": "5943197ef28f1def"
+  }
+}

@@ -1,0 +1,34 @@
+=== 完整曲库（内存缓存） ===
+缓存曲目数: 15
+  11a628f690268f62 被遗忘的时光 | 蔡琴-被遗忘的时光.mp3
+  a8970b1cde26960f 沧海一声笑 | 许冠杰 - 沧海一声笑.mp3
+  e320fe7276924d53 此生不换 | 青鸟飞鱼 - 此生不换.mp3
+  8adf59130a00231f 风中有朵雨做的云 | 孟庭苇 - 风中有朵雨做的云.mp3
+  e50d684385970441 李克勤-红日(粤语) | 李克勤-红日(粤语).wav
+  cb61202b5203fd0d 你的眼神(Remastered) | 蔡琴-你的眼神.mp3
+  d8304b3286f3b8dc 朴树 - 白桦林 | 朴树 - 白桦林.mp3
+  134fec6d6727cfce 让一切随风 | 钟镇涛 - 让一切随风.mp3
+  1263ab8b94eb0ece 天堂 | 腾格尔 - 天堂.mp3
+  45fc9781e4900872 一生所爱 | 卢冠廷&莫文蔚 - 一生所爱.mp3
+  047a8a871cd3306e 长路漫漫伴你闯 (国语) | 林子祥 - 长路漫漫伴你闯 (国语).mp3
+  ae8408bdedb8b323 真的汉子 | 林子祥 - 真的汉子.mp3
+  aed25086cf6e9d04 纸短情长 - 纸短情长 | 纸短情长 - 纸短情长.mp3
+  9ac273cc06427ca2 Beyond - 光辉岁月（国语版） | Beyond - 光辉岁月（国语版）.mp3
+  5b65eae84196cf45 BEYOND - 海阔天空 | BEYOND - 海阔天空.mp3
+
+=== 逐个测试缓存曲目的 stream/lyrics ===
+track 11a628f690268f62: stream=200 lyrics=200
+track a8970b1cde26960f: stream=200 lyrics=200
+track e320fe7276924d53: stream=200 lyrics=200
+track 8adf59130a00231f: stream=200 lyrics=200
+track e50d684385970441: stream=200 lyrics=200
+track cb61202b5203fd0d: stream=200 lyrics=200
+track d8304b3286f3b8dc: stream=200 lyrics=200
+track 134fec6d6727cfce: stream=200 lyrics=200
+track 1263ab8b94eb0ece: stream=200 lyrics=200
+track 45fc9781e4900872: stream=200 lyrics=200
+track 047a8a871cd3306e: stream=200 lyrics=200
+track ae8408bdedb8b323: stream=200 lyrics=200
+track aed25086cf6e9d04: stream=200 lyrics=200
+track 9ac273cc06427ca2: stream=200 lyrics=200
+track 5b65eae84196cf45: stream=200 lyrics=200

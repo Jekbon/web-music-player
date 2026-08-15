@@ -1,0 +1,130 @@
+{
+  "F1": {
+    "pass": true,
+    "evidence": {
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "tabbar": {
+        "display": "none",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        }
+      },
+      "player_bar": {
+        "display": "grid",
+        "rect": {
+          "x": 0,
+          "y": 716,
+          "w": 1280,
+          "h": 84
+        }
+      },
+      "btn_mode_before": "🔁",
+      "btn_mode_after": "🔂",
+      "audio_after_click": {
+        "t": 0.17083,
+        "p": true,
+        "r": 4,
+        "src": "http://127.0.0.1:8787/api/stream/11a628f690268f62"
+      },
+      "row_clicked": "1 被遗忘的时光 试音碟 remember the sound ⋯",
+      "np_title": "被遗忘的时光",
+      "currentTime_growth": [
+        0.180087,
+        1.685015
+      ],
+      "console_errors": []
+    }
+  },
+  "F2": {
+    "pass": true,
+    "evidence": {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "main_rect": {
+        "x": 0,
+        "y": 0,
+        "w": 375,
+        "h": 756
+      },
+      "track_rows": {
+        "total": 4,
+        "visible": 4
+      },
+      "first_track": "1 被遗忘的时光 试音碟 remember the sound ⋯",
+      "audio_after_click": {
+        "t": 0.500767,
+        "p": true,
+        "r": 4,
+        "src": "http://127.0.0.1:8787/api/stream/11a628f690268f62"
+      },
+      "mini_player": {
+        "display": "flex",
+        "class": "",
+        "rect": {
+          "x": 10,
+          "y": 696,
+          "w": 355,
+          "h": 50
+        },
+        "title": "被遗忘的时光"
+      },
+      "console_errors": []
+    }
+  },
+  "F3": {
+    "pass": true,
+    "evidence": {
+      "initial": {
+        "main": "block",
+        "queue": "none",
+        "playlists": "none",
+        "active_tab": "library"
+      },
+      "after_queue": {
+        "main": "none",
+        "queue": "block",
+        "playlists": "none",
+        "active_tab": "queue"
+      },
+      "after_playlists": {
+        "main": "none",
+        "queue": "none",
+        "playlists": "block",
+        "active_tab": "playlists"
+      },
+      "after_library": {
+        "main": "block",
+        "queue": "none",
+        "playlists": "none",
+        "active_tab": "library"
+      },
+      "console_errors": []
+    }
+  },
+  "F4": {
+    "pass": true,
+    "evidence": {
+      "audio_after_play": {
+        "t": 0.149673,
+        "p": true,
+        "r": 4,
+        "src": "http://127.0.0.1:8787/api/stream/11a628f690268f62"
+      },
+      "full_player_display": "flex",
+      "fp_lyrics_after_open": "block",
+      "fp_lyrics_after_close": {
+        "display": "none",
+        "class": "hidden"
+      },
+      "console_errors": []
+    }
+  }
+}

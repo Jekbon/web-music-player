@@ -1,0 +1,132 @@
+{
+  "test_A10_library_and_playback_controls[chromium]": {
+    "pass": true,
+    "evidence": {
+      "track_rows": 3,
+      "track_titles": [
+        "独奏曲",
+        "晨光",
+        "夜风"
+      ],
+      "folder_items": [
+        "全部歌曲",
+        "📁 演示专辑"
+      ],
+      "play_growth": {
+        "t1": 0,
+        "t2_after_1.2s": 1.13
+      },
+      "pause_button_text": "⏸",
+      "pause_drift": 0.0,
+      "resume_growth": 0.73,
+      "queue_after_click_track": [
+        "独奏曲",
+        "晨光",
+        "夜风"
+      ],
+      "after_next": "夜风",
+      "after_prev": "晨光",
+      "seek": {
+        "duration": 6,
+        "before": 0.01,
+        "after": 3
+      },
+      "volume_at_30": 0.3,
+      "mute": {
+        "muted": true,
+        "icon": "🔇"
+      },
+      "unmute": {
+        "muted": false,
+        "icon": "🔉"
+      },
+      "modes": [
+        "🔁",
+        "🔂",
+        "🔀"
+      ],
+      "console_errors": []
+    },
+    "failure_detail": ""
+  },
+  "test_A11_play_queue[chromium]": {
+    "pass": true,
+    "evidence": {
+      "queue_items": [
+        "独奏曲",
+        "晨光",
+        "夜风"
+      ],
+      "playing_item": "\n        ▶ 独奏曲\n        \n        ✕",
+      "np_title": "独奏曲",
+      "after_click_item2": "晨光",
+      "highlight_index_after_click": 1,
+      "queue_after_remove": [
+        "晨光",
+        "夜风"
+      ],
+      "queue_empty_tip": "队列为空",
+      "paused_after_clear": true,
+      "console_errors": []
+    },
+    "failure_detail": ""
+  },
+  "test_A12_state_persistence[chromium]": {
+    "pass": true,
+    "evidence": {
+      "before_reload": {
+        "np_title": "独奏曲",
+        "mode_icon": "🔂",
+        "live_currentTime": 2.0,
+        "saved_state": {
+          "trackId": "d5802f771bf960db",
+          "position": 1.989237,
+          "volume": 0.55,
+          "muted": false,
+          "mode": "single",
+          "queue": [
+            "d5802f771bf960db",
+            "7de0db3216b398ef",
+            "ff275f1709e315ee"
+          ],
+          "queueIndex": 0
+        }
+      },
+      "after_reload": {
+        "np_title": "独奏曲",
+        "mode_icon": "🔂",
+        "currentTime": 1.99,
+        "volume": 0.55,
+        "paused": true,
+        "queue_count": 3,
+        "slider_value": "55"
+      },
+      "console_errors": []
+    },
+    "failure_detail": ""
+  },
+  "test_A13_search_and_lyrics[chromium]": {
+    "pass": true,
+    "evidence": {
+      "search_result": [
+        "\n        1\n        晨光演示专辑\n        -\n        -\n        ⋯"
+      ],
+      "lyric_lines": [
+        "第一句歌词",
+        "第二句歌词",
+        "第三句歌词"
+      ],
+      "first_highlight": {
+        "index": 0,
+        "currentTime": 0.77
+      },
+      "second_highlight": {
+        "index": 1,
+        "currentTime": 2.08
+      },
+      "click_line3_jump": 4,
+      "console_errors": []
+    },
+    "failure_detail": ""
+  }
+}
