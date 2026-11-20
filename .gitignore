@@ -11,3 +11,7 @@ node_modules/
 /.loom/
 /tmp/
 *.tar
+
+# Python 编译产物
+__pycache__/
+*.pyc
