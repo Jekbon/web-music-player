@@ -25,6 +25,19 @@ npm start        # 默认端口 8787
 把音乐文件放进 `music/` 目录（支持子目录），刷新页面即可；也可以直接在页面左侧上传。
 歌词文件与音频同名同目录放置即可（如 `晴天.mp3` ↔ `晴天.lrc`）。
 
+## Docker 运行
+
+```bash
+# 拉取公开镜像一键运行（镜像随 v* tag 发布）
+docker run -d --name music-player -p 8787:8787 \
+  -v "$PWD/music:/app/music" -v "$PWD/data:/app/data" \
+  --restart unless-stopped \
+  ghcr.io/jekbon/web-music-player:latest
+
+# 或本地构建启动
+docker compose up -d --build
+```
+
 ## 配置
 
 | 环境变量 | 默认值 | 说明 |
