@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: 单元与集成测试
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 零依赖,直接跑测试
+        run: npm test
+
+  docker:
+    name: Docker 构建与冒烟
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 构建镜像
+        run: docker build -t web-music-player:ci .
+      - name: 冒烟:容器内曲库 API 可达
+        run: |
+          docker run -d --name wmp -p 8787:8787 web-music-player:ci
+          for i in $(seq 1 30); do
+            if curl -sf http://127.0.0.1:8787/api/library >/dev/null; then
+              echo "smoke ok after ${i}s"
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "smoke failed, container logs:"
+          docker logs wmp
+          exit 1

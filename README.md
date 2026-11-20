@@ -1,5 +1,7 @@
 # Web 音乐播放器
 
+![CI](https://github.com/Jekbon/web-music-player/actions/workflows/ci.yml/badge.svg)
+
 个人使用的 Web 音乐播放器：零依赖 Node 后端 + 原生 JS 单页前端，无构建步骤、无 CDN 依赖。
 
 ## 功能
